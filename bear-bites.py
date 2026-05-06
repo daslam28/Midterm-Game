@@ -531,7 +531,7 @@ async def run():
 async def main():
     # can replay game
     while True:
-        play_again = run()
+        play_again = await run()
         if not play_again:
             break
 
